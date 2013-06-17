@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Very productive page</title>
+</head>
+<body>
+<div>
+    <div ng-controller="TimerController">
+        <div class="label">Remaining:</div>
+        <div class="countdown" ng-show="!left">
+            <div class="day">{{remaining | date:'dd' }} <span>days</span></div>
+            <div class="hour">{{remaining | date:'HH'}} <span>hours</span></div>
+            <div class="min">{{remaining | date:'mm'}} <span>minutes</span></div>
+            <div class="sec">{{remaining | date: 'ss'}} <span>seconds</span></div>
+        </div>
+        <div class="left" ng-show="left">MATEJ IS GONE!</div>
+    </div>
+</div>
+</body>
+</html>

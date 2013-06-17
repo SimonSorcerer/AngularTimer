@@ -1,0 +1,63 @@
+body {
+    font-family: Cordial, Tahoma, "Courier New", Courier;
+    font-size: 40px;
+}
+
+.div {
+    text-align: center;
+}
+
+.countdown {
+    width: 500px;
+    border-right: 2px dotted #CCC;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    margin: 60px auto;
+}
+
+.countdown div {
+    text-align: right;
+    margin-top: 6px;
+}
+
+div span {
+    color: #999;
+}
+
+.day {
+    color: #900;
+    font-size: 3em;
+}
+
+.hour {
+    color: #090;
+    font-size: 2em;
+}
+
+.min {
+    color: #009;
+    font-size: 1.2em;
+}
+
+div.sec {
+    color: #FA0;
+    margin-top: 12px;
+}
+
+.label {
+    position: fixed;
+    top: 0;
+    font-size: 2em;
+    color: #CCC;
+}
+
+.left {
+    width: 500px;
+    border-right: 2px dotted #CCC;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    margin: 60px auto;
+    font-size: 2.6em;
+    color: #000;
+    text-align: right;
+}
